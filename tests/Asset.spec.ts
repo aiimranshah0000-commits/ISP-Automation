@@ -50,5 +50,6 @@ test('TC-02 | Asset Creation ', async ({ page }) => {
    await page.goto(
      'https://isp-saas-staging.vercel.app/company/northdev/asset-manager/new'
    );
+   // asset added
    await page.waitForURL('**/asset-manager/new', { timeout: 10000 });
 });
